@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#00f2ff",
+                        "background-light": "#f8f6f6",
+                        "background-dark": "#050a0a",
+                        "neutral-dark": "#1a1f1f",
+                    },
+                    fontFamily: {
+                        "display": ["Public Sans", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Public Sans', sans-serif;
+        }
+        .glow-hover:hover {
+            box-shadow: 0 0 20px rgba(0, 242, 255, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 transition-colors duration-300">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<header class="sticky top-0 z-50 w-full border-b border-slate-200 dark:border-primary/10 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="size-8 bg-primary flex items-center justify-center rounded-lg">
+<span class="material-symbols-outlined text-background-dark font-bold">deployed_code</span>
+</div>
+<h2 class="text-2xl font-black tracking-tighter text-slate-900 dark:text-white">SPATIAL</h2>
+</div>
+<nav class="hidden md:flex items-center gap-10">
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Services</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Work</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Process</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">About</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="hidden sm:flex items-center justify-center px-6 py-2.5 bg-primary text-background-dark text-sm font-bold rounded-xl glow-hover transition-all">
+                        Contact Us
+                    </button>
+<div class="size-10 rounded-full border border-primary/20 bg-primary/10 flex items-center justify-center overflow-hidden">
+<img alt="User Profile" class="size-full object-cover" data-alt="User profile avatar circle" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDZqsdzwZ5JVFed8nOdLqw9_CahgCnE3Wd308b1tPSCdk2F5Q6QEUZpPedEidek2yCGztAqcLbP59cEd7VHSrh42L3dQCFkAUH0qjEtrPsCl_l3jDUGw2jPCly7bc52FziyeKCGlTy4qNKt5uy1DTnx6uRz3PXGId8T4A5mMfSQdGhZs043bBfyJjJXsrL5aPcBNQit_GXrJvwqiHokLagb3xKzJtS7f07z2_E-ezLinpltevLWORmMSGewCvIWd8KkJWzaPtJTWOz2"/>
+</div>
+</div>
+</div>
+</header>
+<main class="flex-1">
+<section class="relative py-24 px-6 overflow-hidden">
+<div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full pointer-events-none opacity-20">
+<div class="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-primary/30 blur-[120px] rounded-full"></div>
+<div class="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-primary/20 blur-[120px] rounded-full"></div>
+</div>
+<div class="max-w-4xl mx-auto text-center relative z-10">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-bold uppercase tracking-widest mb-6">
+<span class="size-1.5 rounded-full bg-primary animate-pulse"></span>
+                        Minimalist Precision
+                    </div>
+<h1 class="text-5xl md:text-7xl font-black tracking-tight mb-8 bg-clip-text text-transparent bg-gradient-to-b from-slate-900 to-slate-600 dark:from-white dark:to-slate-500">
+                        Our Specialized <span class="text-primary">Services</span>
+</h1>
+<p class="text-lg md:text-xl text-slate-600 dark:text-slate-400 max-w-2xl mx-auto leading-relaxed">
+                        Pushing the boundaries of digital design through immersive experiences, performance-driven architecture, and minimalist precision.
+                    </p>
+<div class="mt-12 flex flex-wrap justify-center gap-4">
+<button class="px-8 py-4 bg-primary text-background-dark font-bold rounded-xl glow-hover">View Our Portfolio</button>
+<button class="px-8 py-4 bg-transparent border border-slate-300 dark:border-primary/30 text-slate-900 dark:text-white font-bold rounded-xl hover:bg-primary/5">Request Quote</button>
+</div>
+</div>
+</section>
+<section class="py-24 px-6 bg-slate-50 dark:bg-neutral-dark/30">
+<div class="max-w-7xl mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="group p-8 rounded-3xl border border-slate-200 dark:border-primary/10 bg-white dark:bg-neutral-dark/50 hover:border-primary/50 transition-all duration-500">
+<div class="size-14 rounded-2xl bg-primary/10 flex items-center justify-center mb-8">
+<span class="material-symbols-outlined text-primary text-3xl">view_in_ar</span>
+</div>
+<h3 class="text-2xl font-bold mb-4">Spatial Web</h3>
+<p class="text-slate-600 dark:text-slate-400 mb-8 leading-relaxed">
+                                Immersive 3D web experiences that redefine how users browse. We blend high-fidelity visuals with high-performance WebGL.
+                            </p>
+<ul class="space-y-3">
+<li class="flex items-center gap-3 text-sm font-medium"><span class="material-symbols-outlined text-primary text-lg">check_circle</span> 3D Environments &amp; Modeling</li>
+<li class="flex items-center gap-3 text-sm font-medium"><span class="material-symbols-outlined text-primary text-lg">check_circle</span> WebGL / Three.js Performance</li>
+<li class="flex items-center gap-3 text-sm font-medium"><span class="material-symbols-outlined text-primary text-lg">check_circle</span> Interactive Narrative Design</li>
+</ul>
+</div>
+<div class="group p-8 rounded-3xl border border-slate-200 dark:border-primary/10 bg-white dark:bg-neutral-dark/50 hover:border-primary/50 transition-all duration-500">
+<div class="size-14 rounded-2xl bg-primary/10 flex items-center justify-center mb-8">
+<span class="material-symbols-outlined text-primary text-3xl">smartphone</span>
+</div>
+<h3 class="text-2xl font-bold mb-4">App Design</h3>
+<p class="text-slate-600 dark:text-slate-400 mb-8 leading-relaxed">
+                                Sleek, minimalist mobile interfaces tailored for the modern era. We focus on clarity, utility, and effortless navigation.
+                            </p>
+<ul class="space-y-3">
+<li class="flex items-center gap-3 text-sm font-medium"><span class="material-symbols-outlined text-primary text-lg">check_circle</span> iOS &amp; Android Ecosystems</li>
+<li class="flex items-center gap-3 text-sm font-medium"><span class="material-symbols-outlined text-primary text-lg">check_circle</span> Scalable Design Systems</li>
+<li class="flex items-center gap-3 text-sm font-medium"><span class="material-symbols-outlined text-primary text-lg">check_circle</span> User Research &amp; Prototyping</li>
+</ul>
+</div>
+<div class="group p-8 rounded-3xl border border-slate-200 dark:border-primary/10 bg-white dark:bg-neutral-dark/50 hover:border-primary/50 transition-all duration-500">
+<div class="size-14 rounded-2xl bg-primary/10 flex items-center justify-center mb-8">
+<span class="material-symbols-outlined text-primary text-3xl">motion_mode</span>
+</div>
+<h3 class="text-2xl font-bold mb-4">Motion Systems</h3>
+<p class="text-slate-600 dark:text-slate-400 mb-8 leading-relaxed">
+                                Strategic animations and meaningful micro-interactions that guide the user journey and breathe life into interfaces.
+                            </p>
+<ul class="space-y-3">
+<li class="flex items-center gap-3 text-sm font-medium"><span class="material-symbols-outlined text-primary text-lg">check_circle</span> Advanced UI Animation</li>
+<li class="flex items-center gap-3 text-sm font-medium"><span class="material-symbols-outlined text-primary text-lg">check_circle</span> Lottie &amp; SVG Integration</li>
+<li class="flex items-center gap-3 text-sm font-medium"><span class="material-symbols-outlined text-primary text-lg">check_circle</span> State Transition Frameworks</li>
+</ul>
+</div>
+<div class="group p-8 rounded-3xl border border-slate-200 dark:border-primary/10 bg-white dark:bg-neutral-dark/50 hover:border-primary/50 transition-all duration-500">
+<div class="size-14 rounded-2xl bg-primary/10 flex items-center justify-center mb-8">
+<span class="material-symbols-outlined text-primary text-3xl">layers</span>
+</div>
+<h3 class="text-2xl font-bold mb-4">Architecture</h3>
+<p class="text-slate-600 dark:text-slate-400 mb-8 leading-relaxed">
+                                Robust technical architecture designed for infinite scalability. We build foundations that handle millions of requests.
+                            </p>
+<ul class="space-y-3">
+<li class="flex items-center gap-3 text-sm font-medium"><span class="material-symbols-outlined text-primary text-lg">check_circle</span> Cloud Native Infrastructure</li>
+<li class="flex items-center gap-3 text-sm font-medium"><span class="material-symbols-outlined text-primary text-lg">check_circle</span> API Strategy &amp; Security</li>
+<li class="flex items-center gap-3 text-sm font-medium"><span class="material-symbols-outlined text-primary text-lg">check_circle</span> High-Availability Systems</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 px-6">
+<div class="max-w-7xl mx-auto">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold tracking-tight mb-4">Our Process</h2>
+<p class="text-slate-600 dark:text-slate-400">A structured path from abstraction to deployment.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8 relative">
+<div class="hidden md:block absolute top-12 left-0 w-full h-px bg-slate-200 dark:bg-primary/20 -z-10"></div>
+<div class="flex flex-col items-center text-center">
+<div class="size-12 rounded-full bg-background-light dark:bg-background-dark border-4 border-primary flex items-center justify-center text-xl font-black mb-6 z-10">1</div>
+<h4 class="text-xl font-bold mb-2">Discovery</h4>
+<p class="text-sm text-slate-500 dark:text-slate-400">Deep dive into goals, user personas, and technical constraints.</p>
+</div>
+<div class="flex flex-col items-center text-center">
+<div class="size-12 rounded-full bg-background-light dark:bg-background-dark border-4 border-primary/40 flex items-center justify-center text-xl font-black mb-6 z-10">2</div>
+<h4 class="text-xl font-bold mb-2">Design</h4>
+<p class="text-sm text-slate-500 dark:text-slate-400">Iterative wireframing and high-fidelity spatial prototyping.</p>
+</div>
+<div class="flex flex-col items-center text-center">
+<div class="size-12 rounded-full bg-background-light dark:bg-background-dark border-4 border-primary/20 flex items-center justify-center text-xl font-black mb-6 z-10">3</div>
+<h4 class="text-xl font-bold mb-2">Dev</h4>
+<p class="text-sm text-slate-500 dark:text-slate-400">Clean, scalable engineering using modern tech stacks.</p>
+</div>
+<div class="flex flex-col items-center text-center">
+<div class="size-12 rounded-full bg-background-light dark:bg-background-dark border-4 border-primary/10 flex items-center justify-center text-xl font-black mb-6 z-10">4</div>
+<h4 class="text-xl font-bold mb-2">Execution</h4>
+<p class="text-sm text-slate-500 dark:text-slate-400">Rigorous testing, deployment, and performance monitoring.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 px-6">
+<div class="max-w-7xl mx-auto px-10 py-20 rounded-[3rem] bg-neutral-dark border border-primary/20 flex flex-col items-center text-center relative overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-primary/5 pointer-events-none"></div>
+<h2 class="text-4xl md:text-5xl font-black mb-6 text-white">Ready to Ship?</h2>
+<p class="text-slate-400 max-w-lg mb-10 text-lg">
+                        Let's build the future of the spatial web together. Get in touch for a consultation.
+                    </p>
+<button class="px-12 py-5 bg-primary text-background-dark font-black rounded-2xl text-lg glow-hover transition-all">
+                        Start Your Project
+                    </button>
+</div>
+</section>
+</main>
+<footer class="border-t border-slate-200 dark:border-primary/10 py-12 px-6 bg-slate-50 dark:bg-background-dark">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start gap-12">
+<div class="flex flex-col gap-6 max-w-sm">
+<div class="flex items-center gap-2">
+<div class="size-6 bg-primary rounded"></div>
+<h2 class="text-xl font-black tracking-tighter">SPATIAL</h2>
+</div>
+<p class="text-sm text-slate-500 dark:text-slate-400">
+                        A boutique design agency specialized in the next generation of digital interfaces and immersive web technology.
+                    </p>
+<div class="flex gap-4">
+<a class="size-10 rounded-lg bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors" href="#">
+<span class="material-symbols-outlined text-primary text-xl">share</span>
+</a>
+<a class="size-10 rounded-lg bg-primary/10 flex items-center justify-center hover:bg-primary/20 transition-colors" href="#">
+<span class="material-symbols-outlined text-primary text-xl">language</span>
+</a>
+</div>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-3 gap-12">
+<div class="flex flex-col gap-4">
+<h5 class="font-bold text-sm uppercase tracking-widest text-primary">Company</h5>
+<a class="text-sm text-slate-500 dark:text-slate-400 hover:text-primary" href="#">About</a>
+<a class="text-sm text-slate-500 dark:text-slate-400 hover:text-primary" href="#">Careers</a>
+<a class="text-sm text-slate-500 dark:text-slate-400 hover:text-primary" href="#">Journal</a>
+</div>
+<div class="flex flex-col gap-4">
+<h5 class="font-bold text-sm uppercase tracking-widest text-primary">Resources</h5>
+<a class="text-sm text-slate-500 dark:text-slate-400 hover:text-primary" href="#">Documentation</a>
+<a class="text-sm text-slate-500 dark:text-slate-400 hover:text-primary" href="#">Privacy Policy</a>
+<a class="text-sm text-slate-500 dark:text-slate-400 hover:text-primary" href="#">Terms</a>
+</div>
+<div class="flex flex-col gap-4">
+<h5 class="font-bold text-sm uppercase tracking-widest text-primary">Contact</h5>
+<p class="text-sm text-slate-500 dark:text-slate-400">hello@spatial.agency</p>
+<p class="text-sm text-slate-500 dark:text-slate-400">Los Angeles, CA</p>
+</div>
+</div>
+</div>
+<div class="max-w-7xl mx-auto border-t border-slate-200 dark:border-primary/5 mt-12 pt-8 flex justify-between items-center">
+<p class="text-xs text-slate-400">© 2024 Spatial Design Inc. All rights reserved.</p>
+<div class="flex gap-6">
+<span class="text-xs text-slate-400">Twitter</span>
+<span class="text-xs text-slate-400">Dribbble</span>
+<span class="text-xs text-slate-400">Instagram</span>
+</div>
+</div>
+</footer>
+</div>
+</body></html>
